@@ -4,7 +4,7 @@ int main() {
 
     int window_width    = 341; //-16 real size after borders and menubar
     int window_height   = 399; // -39
-    LPCWSTR window_name = L"Jordans win32 API demo";
+    LPCWSTR window_name = L"Jordans winapi demo";
 
     GUI gui;
     gui.CreateMainWindow(window_width, window_height, window_name);
